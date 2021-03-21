@@ -1,0 +1,85 @@
+nav
+{
+    background-color: black;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: grey;
+    display:inline;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav
+{
+    padding: 5px;
+}
+
+nav ul li
+{
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+nav ul li:hover
+{
+    background-color: darkblue;
+}
+
+header
+{
+    background-color: grey;
+    padding:10px;
+}
+footer{
+    background-color: black;
+    
+    width: 100%;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+}
+footer p
+{
+    color :white;
+    text-align: center;
+}
+#active {
+ border-color: yellow;   
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+th, tr, td
+{
+    border: 1px solid black;
+    text-align: left;
+}
+body{
+    font-family: Verdana;
+}
+.product {
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
